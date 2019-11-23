@@ -11,7 +11,7 @@ Surge & QX MITM = mp.weixin.qq.com,
 */
 
 /**
- * @supported 03D5ABC3238C 64F8BE5BA1E7
+ * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
  */
 
 var obj = JSON.parse($response.body);

@@ -11,7 +11,7 @@ https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body h
 Surge & QX MITM = api.termius.com
 */
 /**
- * @supported 03D5ABC3238C 64F8BE5BA1E7
+ * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
  */
 
 let obj=JSON.parse($response.body)

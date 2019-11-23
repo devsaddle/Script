@@ -11,7 +11,7 @@ http-response https:\/\/api\.gotokeep\.com\/(.+\/subject|.+\/dynamic) requires-b
 MITM = api.gotokeep.com
 */
 /**
- * @supported 03D5ABC3238C 64F8BE5BA1E7
+ * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
  */
 
 let url = $request.url;

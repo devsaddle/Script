@@ -10,7 +10,7 @@ http-response ^https://sp\.kaola\.com/api/openad$ requires-body=1,max-size=0,scr
 Surge & QX MITM = sp.kaola.com
 */
 /**
- * @supported 03D5ABC3238C 64F8BE5BA1E7
+ * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
  */
 
 var obj = JSON.parse($response.body);

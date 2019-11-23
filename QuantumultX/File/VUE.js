@@ -10,7 +10,7 @@ QX 1.0.0:
 Surge & QX Mitm = api.vuevideo.net
 */
 /**
- * @supported 03D5ABC3238C 64F8BE5BA1E7
+ * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
  */
 
 

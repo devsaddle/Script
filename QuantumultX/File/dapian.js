@@ -10,7 +10,7 @@ http-response ^https?:\/\/api\.vnision\.com\/v1\/(users\/|banners) requires-body
 Surge & QX MITM = api.vnision.com
 */
 /**
- * @supported 03D5ABC3238C 64F8BE5BA1E7
+ * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
  */
 
 
