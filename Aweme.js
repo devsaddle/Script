@@ -1,14 +1,8 @@
-/**
- * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
- */
-
 /*
 [URL Rewrite]
 ^https://aweme-eagle(.*)\.snssdk\.com/aweme/v2/ https://aweme-eagle$1.snssdk.com/aweme/v1/ 302
-
 [Script]
 http-response ^https://[\s\S]*\/aweme/v1/(feed|aweme/post|follow/feed)/ requires-body=1,max-size=-1,script-path=https://Choler.github.io/Surge/Script/Aweme.js
-
 [MITM]
 hostname = *.amemv.com, *.snssdk.com
 */
@@ -62,3 +56,5 @@ if (obj.aweme_list) {
 } else {
   $done({body});
 }
+
+// by choler

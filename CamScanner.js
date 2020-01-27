@@ -12,9 +12,6 @@ http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\
 
 QX & Q & Surge Mitm = ap*.intsig.net,
 */
-/**
- * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
- */
 
 let obj = JSON.parse($response.body);
 obj = {"data":{"psnl_vip_property":{"expiry":"1643731200"}}};

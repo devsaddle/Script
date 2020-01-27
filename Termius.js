@@ -1,18 +1,12 @@
 /*
 Termius unlocks local pro v 
 (From the author @Maasea)
-
 Surge4:
 http-response https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Termius.js
-
 QX：
 https:\/\/api\.termius\.com\/api\/v3\/bulk\/account\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Termius.js
-
 Surge & QX MITM = api.termius.com
 */
-/**
- * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
- */
 
 let obj=JSON.parse($response.body)
 obj.account["pro_mode"] = true;

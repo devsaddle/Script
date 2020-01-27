@@ -1,15 +1,10 @@
 /*
 Surge:
-
 [Script]
 http-response ^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?timestamp=)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js
-
 [MITM]
 hostname = newdrugs.dxy.cn
 */
-/**
- * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
- */
 
 const path1 = "/snsapi/username/";
 const path2 = "/app/user/pro/stat?";

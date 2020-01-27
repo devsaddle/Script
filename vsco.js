@@ -1,17 +1,11 @@
 /*
 VSCO unlock vip
-
 QX:
 ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
-
 Surge4：
 http-response ^https?:\/\/vsco\.co\/api\/subscriptions\/2.1\/user-subscriptions\/ requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/vsco.js
-
 Surge & QX MITM = vsco.co
 */
-/**
- * @supported 03D5ABC3238C 64F8BE5BA1E7 F519FA85D130
- */
 
 var body = $response.body;
 var url = $request.url;
